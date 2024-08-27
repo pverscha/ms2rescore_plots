@@ -82,8 +82,8 @@ def process_files(input_directory, output_directory):
             print(f"Saved results to {output_filepath}")
 
 # Set the input and output directories
-input_directory = '../ms2rescore_peptides'
-output_directory = '../ms2rescore_lcas'
+input_directory = './peptides'
+output_directory = './lcas'
 
 # Run the processing function
 process_files(input_directory, output_directory)
